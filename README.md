@@ -2,4 +2,10 @@
 
 Proyecto Java SE con Maven para la venta de boletos.
 
-Primera etapa: estructura Maven y conexión JDBC con MySQL.
+Avances incluidos:
+- Estructura Maven.
+- Conexión JDBC con MySQL.
+- Prototipos de login y menús.
+- Modelos de sesión y datos.
+- DAO principal con consultas TicketFan.
+- Script inicial de base de datos.
