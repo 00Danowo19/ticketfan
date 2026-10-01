@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[900, 500]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+              <Component id="JlblTitutoloAdministradorPromotora" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="JlblTextoNombrePromotora" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="JbtnCerrarSesionAdministradorPromotora" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="JpnLateralIzquierdoPromotora" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="JpnContenidoPromotora" min="-2" pref="539" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="50" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="JlblTitutoloAdministradorPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JlblTextoNombrePromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JbtnCerrarSesionAdministradorPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="JpnLateralIzquierdoPromotora" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                      <Component id="JpnContenidoPromotora" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="JpnLateralIzquierdoPromotora">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="JbtnRegistrarAdministradorPromotora" alignment="0" max="32767" attributes="0"/>
+                      <Component id="JbtnCuentaPromotora" alignment="0" max="32767" attributes="0"/>
+                      <Component id="JbtnEventosPromotora" max="32767" attributes="0"/>
+                      <Component id="JbtnRegistrarPromotora" alignment="0" max="32767" attributes="0"/>
+                      <Component id="JbtnCrearEventoPromotora" alignment="0" max="32767" attributes="0"/>
+                      <Component id="JbtnTableroVentasPromotora" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="35" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                  <Component id="JbtnEventosPromotora" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="JbtnRegistrarPromotora" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="JbtnCuentaPromotora" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="JbtnRegistrarAdministradorPromotora" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="JbtnCrearEventoPromotora" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="JbtnTableroVentasPromotora" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="229" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="JbtnEventosPromotora">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4. Eventos"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnEventosPromotoraActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="JbtnRegistrarPromotora">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="11. Registrar Promotora"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnRegistrarPromotoraActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="JbtnCuentaPromotora">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="12. Cuenta Promotora"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnCuentaPromotoraActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="JbtnRegistrarAdministradorPromotora">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="13. Registrar Administrador"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnRegistrarAdministradorPromotoraActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="JbtnCrearEventoPromotora">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="14. Crear Evento"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnCrearEventoPromotoraActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="JbtnTableroVentasPromotora">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="16. Tablero de ventas"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnTableroVentasPromotoraActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="JlblTitutoloAdministradorPromotora">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TicketFan | Administrador:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="JlblTextoNombrePromotora">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NombreAdmin"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="JbtnCerrarSesionAdministradorPromotora">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cerrar Sesion"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnCerrarSesionAdministradorPromotoraActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="JpnContenidoPromotora">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="JpnPromotora">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card2"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="JscpEventosPromotora" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="JlblTituloEventoPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                      <Component id="JbtnVerEventoPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="JbtnModificarEventoPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="JbtnCrearEventosPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="JbtnActualizarEventoPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="JlblTituloEventoPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="JscpEventosPromotora" min="-2" pref="361" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JbtnVerEventoPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JbtnModificarEventoPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JbtnCrearEventosPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JbtnActualizarEventoPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="12" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="JscpEventosPromotora">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="JtblEventosPromotora">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="9" rowCount="4">
+                        <Column editable="false" title="ID" type="java.lang.Integer"/>
+                        <Column editable="false" title="Evento" type="java.lang.String"/>
+                        <Column editable="false" title="Tipo" type="java.lang.String"/>
+                        <Column editable="false" title="Edad min." type="java.lang.Integer"/>
+                        <Column editable="false" title="Boletos" type="java.lang.Integer"/>
+                        <Column editable="false" title="Precio" type="java.lang.Double"/>
+                        <Column editable="false" title="Banco" type="java.lang.String"/>
+                        <Column editable="false" title="Cuenta Receptora" type="java.lang.String"/>
+                        <Column editable="false" title="Promotora" type="java.lang.String"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="JlblTituloEventoPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="4. Eventos - Promotora"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="JbtnVerEventoPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ver"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnVerEventoPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="JbtnModificarEventoPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Modificar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnModificarEventoPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="JbtnCrearEventosPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Crear Evento"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnCrearEventosPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="JbtnActualizarEventoPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Actualizar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnActualizarEventoPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="JpnCuentaPromotora">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card3"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="JlblSaldoDisponiblePromotora" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JlblNumeroCuentaPromotora" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="JlblPromotoraEvento" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="JlblSeleccionarBancoPromotora" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="JcbxSeleccionarBancoPromotora" alignment="0" pref="173" max="32767" attributes="0"/>
+                                          <Component id="JtxtfNombrePromotora" alignment="0" max="32767" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="JtxtfSaldoDisponiblePromotora" max="32767" attributes="0"/>
+                                                  <Component id="JtxtfNumeroCuentaPromotora" pref="172" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="212" max="-2" attributes="0"/>
+                              <Component id="JbtnRegistrarCuentaPromotora" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="JlblTituloCuentaPromotora" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="95" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="JlblTituloCuentaPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblPromotoraEvento" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtfNombrePromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblSeleccionarBancoPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JcbxSeleccionarBancoPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblNumeroCuentaPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtfNumeroCuentaPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblSaldoDisponiblePromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtfSaldoDisponiblePromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="59" max="32767" attributes="0"/>
+                      <Component id="JbtnRegistrarCuentaPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="JlblPromotoraEvento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Promotora:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblSeleccionarBancoPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Seleccionar Banco:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblNumeroCuentaPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Numero de Cuenta:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblSaldoDisponiblePromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Saldo Disponible:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="JbtnRegistrarCuentaPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Registrar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnRegistrarCuentaPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JcbxSeleccionarBancoPromotora">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JcbxSeleccionarBancoPromotoraActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtfNumeroCuentaPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="----------"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtfNumeroCuentaPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtfNombrePromotora">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="text" type="java.lang.String" value="Rio Yaqui"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtfNombrePromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtfSaldoDisponiblePromotora">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="text" type="java.lang.String" value="0.00$"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtfSaldoDisponiblePromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblTituloCuentaPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="12. Cuenta Promotora"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="JpnRegistrarAdministradorPromotora">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card4"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="JlblTituloRegistrarAdministradorPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="JlblNombresAdministradorPromotora" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblApellidoPaternoAdministradorPromotora" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblApellidoMaternoAdministradorPromotora" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblUsuarioAdministradorPromotora" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblNombrePromotora" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblContraseñaAdministradorPromotora" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="JbtnRegistrarAdminPromotora" pref="150" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="JtxtfNombresAdminitradorPromotora" alignment="0" max="32767" attributes="0"/>
+                              <Component id="JtxtfNombrePromotoraEnRP" alignment="0" pref="150" max="32767" attributes="0"/>
+                              <Component id="JtxtfApellidoPaternoAdmnistradorPromotora" alignment="0" max="32767" attributes="0"/>
+                              <Component id="JtxtfApellidoMaternoAdministradorPromotora" alignment="0" max="32767" attributes="0"/>
+                              <Component id="JtxtfUsuarioAdministradorPromotora" alignment="0" max="32767" attributes="0"/>
+                              <Component id="JtxtfContraseñaAdministradorPromotora" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="131" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="JlblTituloRegistrarAdministradorPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="JlblNombrePromotora" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtfNombrePromotoraEnRP" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="JtxtfNombresAdminitradorPromotora" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="JlblNombresAdministradorPromotora" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="JlblApellidoPaternoAdministradorPromotora" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtfApellidoPaternoAdmnistradorPromotora" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="JlblApellidoMaternoAdministradorPromotora" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtfApellidoMaternoAdministradorPromotora" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="JlblUsuarioAdministradorPromotora" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtfUsuarioAdministradorPromotora" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblContraseñaAdministradorPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtfContraseñaAdministradorPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                      <Component id="JbtnRegistrarAdminPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="92" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="JlblTituloRegistrarAdministradorPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="13. Registrar Administrador Promotora"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblNombrePromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Promotora:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblNombresAdministradorPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombres:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblApellidoPaternoAdministradorPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apellido Paterno:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblApellidoMaternoAdministradorPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apellido Materno:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblUsuarioAdministradorPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Usuario:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblContrase&#xf1;aAdministradorPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Contrase&#xf1;a:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtfNombrePromotoraEnRP">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="text" type="java.lang.String" value="Rio Yaqui"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtfNombrePromotoraEnRPActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtfNombresAdminitradorPromotora">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtfNombresAdminitradorPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtfApellidoPaternoAdmnistradorPromotora">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtfApellidoPaternoAdmnistradorPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtfApellidoMaternoAdministradorPromotora">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtfApellidoMaternoAdministradorPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtfUsuarioAdministradorPromotora">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtfUsuarioAdministradorPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtfContrase&#xf1;aAdministradorPromotora">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtfContrase&#xf1;aAdministradorPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="JbtnRegistrarAdminPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Registrar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnRegistrarAdminPromotoraActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="JpnCrearEventoPromotora">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card5"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="JlblCrearEventoNombrePromotora" min="-2" max="-2" attributes="0"/>
+                              <Component id="JlblCrearEventoPromotora" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="JlblCrearEventoTipoEvnto" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JlblCrearEventoNombreEventoShouw" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JlblCrearEventoEdadMinima" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JlblCrearEventoCantidadBoletos" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JlblCrearEventoPrecioBoleto" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JlblCrearEventoCuentaReceptora" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JlblCrearEventoImagenPromocional" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="JtxtfCrearEventoNombrePromotora" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="JcbCrearEventoTipoEvento" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="36" max="32767" attributes="0"/>
+                              <Component id="JbtnNuevaCategoriaEvento" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="JtxtCrearEventoNombreEventoShouw" max="32767" attributes="0"/>
+                          <Component id="JspnEdadMinima" max="32767" attributes="0"/>
+                          <Component id="JspnCantidadBoletos" max="32767" attributes="0"/>
+                          <Component id="JspnPrecioBoleto" max="32767" attributes="0"/>
+                          <Component id="JcbxCuentaReceptora" max="32767" attributes="0"/>
+                          <Component id="JtxtImagenEvento" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="75" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
+                      <Component id="JbtnCrearEvento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="JlblCrearEventoPromotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblCrearEventoNombrePromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtfCrearEventoNombrePromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblCrearEventoNombreEventoShouw" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtCrearEventoNombreEventoShouw" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblCrearEventoTipoEvnto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JcbCrearEventoTipoEvento" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JbtnNuevaCategoriaEvento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblCrearEventoEdadMinima" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JspnEdadMinima" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblCrearEventoCantidadBoletos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JspnCantidadBoletos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblCrearEventoPrecioBoleto" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                          <Component id="JspnPrecioBoleto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblCrearEventoCuentaReceptora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JcbxCuentaReceptora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblCrearEventoImagenPromocional" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtImagenEvento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="JbtnCrearEvento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="46" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="JlblCrearEventoPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="14. Crear Evento "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblCrearEventoNombrePromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Promotora:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblCrearEventoNombreEventoShouw">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombre Evento/Shouw:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtfCrearEventoNombrePromotora">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtfCrearEventoNombrePromotoraActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblCrearEventoTipoEvnto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo Evento:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JcbCrearEventoTipoEvento">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JcbCrearEventoTipoEventoActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="JbtnNuevaCategoriaEvento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nueva Categoria"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnNuevaCategoriaEventoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtCrearEventoNombreEventoShouw">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtCrearEventoNombreEventoShouwActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblCrearEventoEdadMinima">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Edad minima:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblCrearEventoCantidadBoletos">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cantidad de boletos:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblCrearEventoPrecioBoleto">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Precio de boleto:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblCrearEventoCuentaReceptora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cuenta receptora:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblCrearEventoImagenPromocional">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Imagen Promocional:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="JspnEdadMinima">
+            </Component>
+            <Component class="javax.swing.JSpinner" name="JspnCantidadBoletos">
+              <Properties>
+                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                  <SpinnerModel initial="1" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="JspnPrecioBoleto">
+              <Properties>
+                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                  <SpinnerModel initial="100.0" minimum="1.0" numberType="java.lang.Double" stepSize="10.0" type="number"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JcbxCuentaReceptora">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JcbxCuentaReceptoraActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtImagenEvento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Imagen"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtImagenEventoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="JbtnCrearEvento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Crear Evento"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnCrearEventoActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="JpnTableroDeVentas">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card6"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="JscpTableroDeVentasPorEvento" alignment="1" pref="539" max="32767" attributes="0"/>
+                  <Component id="JscpTableroDeVentasVentasGeneral" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="JlblTituloTableroDeVentas" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblSubTituloTableroDeVentas" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="JlblSubTItuloVentasGeneral" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="JlblSubTituloGananciasGeneralesActivas" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="JlblTextoGanasGeneralesActivas" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="220" max="-2" attributes="0"/>
+                              <Component id="JbtnTableroVentasActualizarTablero" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="JlblTituloTableroDeVentas" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="JlblSubTituloTableroDeVentas" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Component id="JscpTableroDeVentasPorEvento" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="JlblSubTItuloVentasGeneral" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblSubTituloGananciasGeneralesActivas" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblTextoGanasGeneralesActivas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="JscpTableroDeVentasVentasGeneral" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="JbtnTableroVentasActualizarTablero" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="56" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="JscpTableroDeVentasPorEvento">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="JtblTableroDeVentasVentasPorEvento">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="10" rowCount="4">
+                        <Column editable="false" title="ID" type="java.lang.Integer"/>
+                        <Column editable="false" title="Evento" type="java.lang.String"/>
+                        <Column editable="false" title="Promotora" type="java.lang.String"/>
+                        <Column editable="false" title="Precio" type="java.lang.Double"/>
+                        <Column editable="false" title="Totales" type="java.lang.Integer"/>
+                        <Column editable="false" title="Vendidos" type="java.lang.Integer"/>
+                        <Column editable="false" title="Por Vender" type="java.lang.Integer"/>
+                        <Column editable="false" title="$ vendido" type="java.lang.Double"/>
+                        <Column editable="false" title="$  por vender" type="java.lang.Double"/>
+                        <Column editable="false" title="Valor total" type="java.lang.Double"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="JscpTableroDeVentasVentasGeneral">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="JtblTableroDeVentasVentasGeneral">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="false" title="Promotora" type="java.lang.String"/>
+                        <Column editable="false" title="Banco" type="java.lang.String"/>
+                        <Column editable="false" title="Numero de Cuenta" type="java.lang.String"/>
+                        <Column editable="false" title="Saldo" type="java.lang.Double"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="JlblTituloTableroDeVentas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="16.Tablero  de Ventas"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblSubTituloTableroDeVentas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ventas por evento"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblSubTItuloVentasGeneral">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ventas general - Cuentas y saldos"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblSubTituloGananciasGeneralesActivas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ganancias Generales Por Ventas Activas:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblTextoGanasGeneralesActivas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="$0.00"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="JbtnTableroVentasActualizarTablero">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Actualizar Tablero"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnTableroVentasActualizarTableroActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="JpnModificarEvento">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card7"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="JlblTituloModificarEvento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="JlblModificarEventoPromotora" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblModificarEventoImagenPromocional" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblModificarEventoCuentaReceptora" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblModificarEventoPrecioBoletos" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblModificarEventoCantidadBoletos" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblModificarEventoEdadMinima" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblModificarEventoTipoEvento" min="-2" max="-2" attributes="0"/>
+                          <Component id="JlblModificarEventoNombreEventoShouw" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="JspnModificarEdadMinima" alignment="0" max="32767" attributes="0"/>
+                          <Component id="JspnModificarCantidadBoletos" alignment="0" max="32767" attributes="0"/>
+                          <Component id="JspnModificarPrecioBoleto" alignment="0" max="32767" attributes="0"/>
+                          <Component id="JcbxModificarCuentaReceptora" max="32767" attributes="0"/>
+                          <Component id="JtxtModificarImagenEvento" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="JcbxModificarTipoEvento" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="JbtnNuevaCategoriaModificarEvento" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="JtxtModificarNombreEvento" alignment="0" max="32767" attributes="0"/>
+                          <Component id="JcbxModificarEventoPromotora" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="220" max="-2" attributes="0"/>
+                      <Component id="JbtnGuardarCambiosEvento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="JlblTituloModificarEvento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblModificarEventoPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JcbxModificarEventoPromotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblModificarEventoNombreEventoShouw" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtModificarNombreEvento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblModificarEventoTipoEvento" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JcbxModificarTipoEvento" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JbtnNuevaCategoriaModificarEvento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblModificarEventoEdadMinima" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JspnModificarEdadMinima" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblModificarEventoCantidadBoletos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JspnModificarCantidadBoletos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblModificarEventoPrecioBoletos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JspnModificarPrecioBoleto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblModificarEventoCuentaReceptora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JcbxModificarCuentaReceptora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JlblModificarEventoImagenPromocional" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JtxtModificarImagenEvento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="JbtnGuardarCambiosEvento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="47" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="JlblTituloModificarEvento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="15. Modificar Evento"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblModificarEventoPromotora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Promotora:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblModificarEventoNombreEventoShouw">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombre del evento/shouw"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblModificarEventoTipoEvento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo evento"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblModificarEventoEdadMinima">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Edad minima:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblModificarEventoCantidadBoletos">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cantidad Boletos:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblModificarEventoPrecioBoletos">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Precio Boletos:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblModificarEventoCuentaReceptora">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cuenta Receptora:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="JlblModificarEventoImagenPromocional">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Imagen  Promocional:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JcbxModificarEventoPromotora">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JcbxModificarEventoPromotoraActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="JspnModificarEdadMinima">
+            </Component>
+            <Component class="javax.swing.JSpinner" name="JspnModificarCantidadBoletos">
+              <Properties>
+                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                  <SpinnerModel initial="1" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="JspnModificarPrecioBoleto">
+              <Properties>
+                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                  <SpinnerModel initial="100.0" minimum="1.0" numberType="java.lang.Double" stepSize="10.0" type="number"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtModificarNombreEvento">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtModificarNombreEventoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JcbxModificarCuentaReceptora">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JcbxModificarCuentaReceptoraActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JtxtModificarImagenEvento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Imagen"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JtxtModificarImagenEventoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JcbxModificarTipoEvento">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="JbtnNuevaCategoriaModificarEvento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nueva Categoria"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="JbtnGuardarCambiosEvento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Guardar Cambios"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JbtnGuardarCambiosEventoActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
