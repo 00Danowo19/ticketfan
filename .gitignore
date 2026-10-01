@@ -1,0 +1,5 @@
+target/
+config.properties
+*.class
+.idea/
+.vscode/
