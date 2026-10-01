@@ -1,11 +1,23 @@
 # TicketFan
 
-Proyecto Java SE con Maven para la venta de boletos.
+Aplicación Java SE desarrollada en NetBeans con Maven y JDBC para la gestión y venta de boletos.
 
-Avances incluidos:
-- Estructura Maven.
-- Conexión JDBC con MySQL.
-- Prototipos de login y menús.
-- Modelos de sesión y datos.
-- DAO principal con consultas TicketFan.
-- Script inicial de base de datos.
+## Funciones principales
+- Inicio de sesión para clientes y administradores.
+- Registro de clientes con cuentas automáticas.
+- Consulta y compra de boletos.
+- Cancelación de compras y reembolso.
+- Generación de boleto en PDF.
+- Registro de promotoras, cuentas y administradores.
+- Creación y modificación de eventos.
+- Dashboard de ventas por evento y general.
+
+## Base de datos
+El script se encuentra en `database/TicketFan.sql`.
+
+## Configuración
+Copiar `config.example.properties` como `config.properties` y colocar los datos locales de MySQL.
+`config.properties` está ignorado por Git para no publicar contraseñas.
+
+## JavaDoc
+Abrir `javadoc/index.html`.

@@ -1,0 +1,5 @@
+JavaDoc de TicketFan
+
+Abre el archivo javadoc/index.html con tu navegador.
+
+Los paquetes del proyecto ahora son ticketfan, ticketfan.dao, ticketfan.db, ticketfan.model, ticketfan.service y ticketfan.ui.
